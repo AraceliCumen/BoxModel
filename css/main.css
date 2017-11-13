@@ -1,0 +1,33 @@
+
+*{
+  box-sizing: border-box;/*para definir que los elementos esten proporcionales */
+  font-family: cursive;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+h1{
+  outline: 1px solid green;
+}
+
+ul{
+  outline: 1px solid yellow; /*para visualizar el elemento dibuja una línea alredor no aumenta nada, usar como refencia para ver como va  mi maquetado*/
+  width: 200px;
+  padding: 0;
+}
+ li{
+   outline: 1px solid orange;
+   list-style: none;
+ }
+
+
+.enlace{
+  outline:  1px solid yellowgreen;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+}
